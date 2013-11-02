@@ -20,16 +20,16 @@
               <ul class="thumbnails">
                 <li class="span3">  
                 <div class="caption">
-                  <h2>QTY</h2>
+                  <p><b>QTY: </b></p>
                 </div>
                   <div class="thumbnail" style="padding: 0">
                     <div style="padding:2px">
-                      <img alt="50x50" style="width: 50%" src="bootstrap/app/www/img/banana.jpg">
+                      <img alt="50x50" style="width: 70%" src="bootstrap/app/www/img/banana.jpg">
                     </div>
                 </div>
                 <div class="row-fluid">
-                    <div class="span4"><b>Description: </b><small>A Yellow Banana</small></div><br/>
-                    <div class="span4"><b>Category: </b><small>Produce (Fruit)</small></div><br/>
+                    <div class="span4"><b>Description: </b><small>A Banana</small></div><br>
+                    <div class="span4"><b>Category: </b><small>Produce</small></div><br>
                     <div class="span4"><b>Exp. Date: </b><small>5 days</small></div>
                 </div>
                 </li>
