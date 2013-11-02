@@ -1,16 +1,13 @@
 <html>
 <head>
-<<<<<<< HEAD
-    <title>Boootstrap 101 Template</title>
+    <title>Boootstrap 101 T</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="bootstrap/app/www/css/bootstrap.min.css" rel="stylesheet" media="screen">
-=======
     <title>Fridgem8</title>
          <meta charset="utf-8">
          <title>FridgeM8</title>
          <link rel="stylesheet" href="http://flip.hr/css/bootstrap.min.css">
->>>>>>> 9d544494a89d76e41373183fe11e2713169ff6dd
   </head>
 <body>
 	<body background="bootstrap/app/www/img/ourBackground.jpg">
@@ -41,9 +38,9 @@
          <div class="Database">
          	<style>
 				body { float:left;}
-				.Database { background-color: #000000;
+				.row { background-color: #000000;
 							color: #FFFFFF;
-							opacity:0.4;
+							opacity:0.2;
   				/*filter:alpha(opacity=60);  For IE8 and earlier */
   			}
   				.btn{
