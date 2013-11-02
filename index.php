@@ -35,15 +35,9 @@
    
          <div class="Database">
          	<style>
-				body { float:left;}
-				.row-fluid { background-color: #000000;
-							color: #FFFFFF;
-							opacity:0.8;
-  				/*filter:alpha(opacity=60);  For IE8 and earlier */
-  			}
-  				.btn{
-  					color: #000000;
-  				}
+				body { 
+            float:left;}
+				
 			</style>
                  <h2>Database Query Test</h2>
          <p>This should be the DB query that we're playing with for now: <?php
