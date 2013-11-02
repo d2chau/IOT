@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="bootstrap/app/www/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/app/www/css/main.css" rel="stylesheet" media="screen">
     <title>Fridgem8</title>
          <meta charset="utf-8">
          <title>FridgeM8</title>
@@ -21,8 +22,7 @@
          <p>Hello guys i am a ".hero-unit" and you can use me if you wanna say something important.</p>
          <p><a class="btn btn-primary btn-large">Super important &raquo;</a></p>
          </div><!-- .hero-unit -->
-       <center> 
- <div class="row">
+  <div class="row-fluid">
          <div class="span4">
          <h2>Box Number 1</h2>
          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -82,7 +82,6 @@ echo "Done";
 
   
  </div><!-- .row -->
-</center>
  </div><!-- .container -->
 </body>
 </html>
