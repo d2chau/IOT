@@ -5,7 +5,6 @@
     <!-- Bootstrap -->
     <link href="bootstrap/app/www/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href= "bootstrap/app/www/css/main.css" rel="stylesheet" media="screen">
-    <title>Fridgem8</title>
          <meta charset="utf-8">
          <title>FridgeM8</title>
          <link rel="stylesheet" href="http://flip.hr/css/bootstrap.min.css">
@@ -37,7 +36,7 @@
          <div class="Database">
          	<style>
 				body { float:left;}
-				.row { background-color: #000000;
+				.row-fluid { background-color: #000000;
 							color: #FFFFFF;
 							opacity:0.8;
   				/*filter:alpha(opacity=60);  For IE8 and earlier */
