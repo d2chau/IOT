@@ -39,7 +39,7 @@
 -->
 
 
-<td>
+
    <div id="example" class="modal hide fade in" style="display: none; ">  
 <div class="modal-header">  
 <a class="close" data-dismiss="modal">×</a>  
