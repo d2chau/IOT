@@ -1,0 +1,64 @@
+.small_box
+{
+	width:25px;
+	height:50px;
+}
+
+.modal-body
+{
+	display:inline;
+	height:auto;
+}
+
+.image_div
+{
+	display:inline;
+	width:auto;
+        height:auto;
+	float:left;
+	margin-left:130px;
+	margin-top:25px;
+}
+
+.right_outer
+{
+	display:block;
+	float:left;
+	margin-left:30px;
+}
+
+.right_outer_top
+{
+	display:inline;
+	width:auto;
+        height:auto;
+}
+
+.right_outer_middle
+{
+	display:inline;
+	width:auto;
+        height:auto;
+}
+
+.right_outer_bottom
+{
+	display:inline;
+	width:auto;
+        height:auto;
+}
+
+.qty_div
+{
+	width:25px;
+	height:auto;
+}
+
+.op
+{
+	height:auto;
+	margin:auto;
+}
+
+
+

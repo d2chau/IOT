@@ -12,6 +12,7 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
+
      <div class="willscontainer">
          <div class="hero-unit">
          <h1>Fridgem8</h1>
@@ -38,5 +39,8 @@
  
  </div><!-- .row -->
  </div><!-- .container -->
+    <script src='bootstrap/app/www/js/jquery.min.js'></script>
+    <script src='bootstrap/app/www/js/bootstrap-modal.js'></script>
+
 </body>
 </html>
