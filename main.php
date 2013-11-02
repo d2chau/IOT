@@ -28,10 +28,10 @@
                     </div>
                 </div>
                 <div class="col-sm-2 col-md-4">
-                    <p> <i class="glyphicon glyphicons-icon-qrcode"></i> Banana
+                    <p> <i class="glyphicon glyphicon-ok"></i> Banana
                         <br
-                        /> <i class="glyphicon glyphicons-icon-list"></i> Produce
-                        <br /> <i class="glyphicon glyphicons-icon-skull"></i> 5 days</p>
+                        /> <i class="glyphicon glyphicon-list"></i> Produce
+                        <br /> <i class="glyphicon glyphicon-skull"></i> 5 days</p>
                 </div>
                 </li>
             </ul>
