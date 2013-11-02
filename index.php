@@ -15,7 +15,7 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
-     <div class="container">
+     <div class="willscontainer">
          
          <div class="hero-unit">
          <h1>Fridgem8</h1>
