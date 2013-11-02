@@ -16,7 +16,8 @@ $result = pg_query($con, "SELECT * FROM test");
 
 while($row = mysqli_fetch_array($result))
   {
-  echo $row;
+  echo $row['id'] . " " . $row['foo'];
+  echo "<br>";
   }
 
 
