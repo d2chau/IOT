@@ -1,4 +1,5 @@
 Iot::Application.routes.draw do
+  get "recipe/find"
   resources :items
 
   resources :shopping_lists

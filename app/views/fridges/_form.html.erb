@@ -13,7 +13,10 @@
 
   <div class="field">
     <%= f.label :item_id %><br>
-    <%= f.number_field :item_id %>
+    <%= f.select :item_id,
+                 Item.all.map { |p| [p.name, p.id] },
+                 {include_blank: 'Choose...'},
+                 selected: @item.try(:item).try(:id) %>
   </div>
   <div class="field">
     <%= f.label :quantity %><br>
@@ -21,7 +24,10 @@
   </div>
   <div class="field">
     <%= f.label :user_id %><br>
-    <%= f.number_field :user_id %>
+    <%= f.select :user_id,
+                 User.all.map { |p| [p.name, p.id] },
+                 {include_blank: 'Choose...'},
+                 selected: @user.try(:user).try(:id) %>
   </div>
   <div class="field">
     <%= f.label :date_bought %><br>

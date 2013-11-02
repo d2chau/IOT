@@ -5,5 +5,20 @@
   <%= @user.name %>
 </p>
 
+
+<h3>Shopping Lists</h3>
+<ul>
+<% @user.shopping_lists.each do |sli| %>
+  <li><%= sli.item.name %> - <%= sli.quantity %></li>
+<% end %>
+</ul>
+
+<h3>Fridges</h3>
+<ul>
+<% @user.fridges.each do |sli| %>
+  <li><%= sli.item.name %> - <%= sli.quantity %> - <%= sli.date_bought %></li>
+<% end %>
+</ul>
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
