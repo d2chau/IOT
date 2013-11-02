@@ -40,7 +40,7 @@
 				body { float:left;}
 				.row { background-color: #000000;
 							color: #FFFFFF;
-							opacity:0.2;
+							opacity:0.9;
   				/*filter:alpha(opacity=60);  For IE8 and earlier */
   			}
   				.btn{
