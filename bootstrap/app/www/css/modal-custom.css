@@ -4,6 +4,13 @@
 	height:50px;
 }
 
+.grid_table
+{
+	width:auto;
+	height:auto;
+	
+}
+
 .modal-body
 {
 	display:inline;
