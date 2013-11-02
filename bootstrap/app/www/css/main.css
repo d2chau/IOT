@@ -3,11 +3,13 @@
 	margin-left: 10px;
 }
 
-.innerDiv { 
+.innerDiv {
+	border-width: 5px; 
 	background-color: #000000;
 	color: #FFFFFF;
 	opacity:0.8;
-	margin-right: 10px;
+	margin-bottom: 5px;
+
 }
 .btn{
 	color: #000000;
