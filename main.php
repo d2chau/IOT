@@ -12,13 +12,15 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
-     <div class="row" id="container">
-        <div class="span4">
-            <p>Testing left</p>
-        </div>
-        <div class="span5">
-            <p>Testing right</p>
-        </div>
-     </div>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span10">
+      <p>Testing Right</p>
+    </div>
+    <div class="span2">
+      <p>TestingLeft</p>
+    </div>
+  </div>
+</div>
 </body>
 </html>
