@@ -79,7 +79,7 @@
 </div>  
 <p>
 
-    <a data-toggle="modal" href="#example" class="btn btn-primary btn-large">
+    <a data-toggle="modal" href="#example">
 
 
 
