@@ -8,14 +8,40 @@
   </head>
 <body>
 	<body background="bootstrap/app/www/img/ourBackground.jpg">
-	<h1>The Best Achievement App In the World!</h1>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
      <div class="container">
          
          <div class="hero-unit">
-         <h1>Matt is cool<?php
+         <h1>The Best Achievement App In the World!</h1>
+         <p>Hello guys i am a ".hero-unit" and you can use me if you wanna say something important.</p>
+         <p><a class="btn btn-primary btn-large">Super important &raquo;</a></p>
+         </div><!-- .hero-unit -->
+        
+ <div class="row">
+         <div class="span4">
+         <h2>Box Number 1</h2>
+         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
+   
+         <div class="span4">
+                 <h2>Box Number 2</h2>
+         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
+   
+         <div class="Database">
+         	<style>
+				body { float:left;}
+				.Database { background-color: #ccffcc;
+				opacity:0.6;
+  				/*filter:alpha(opacity=60);  For IE8 and earlier */
+  			}
+			</style>
+                 <h2>Database Query Test</h2>
+         <p>This should be the DB query that we're playing with for now: <?php
 # This function reads your DATABASE_URL configuration automatically set by Heroku
 # the return value is a string that will work with pg_connect
 function pg_connection_string() {
@@ -41,27 +67,7 @@ while ($row = pg_fetch_assoc($result)) {
     echo $row['id'];
 }
 echo "Done";
-?></h1>
-         <p>Hello guys i am a ".hero-unit" and you can use me if you wanna say something important.</p>
-         <p><a class="btn btn-primary btn-large">Super important &raquo;</a></p>
-         </div><!-- .hero-unit -->
-        
- <div class="row">
-         <div class="span4">
-         <h2>Box Number 1</h2>
-         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
-         </div><!-- .span4 -->
-   
-         <div class="span4">
-                 <h2>Box Number 2</h2>
-         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
-         </div><!-- .span4 -->
-   
-         <div class="span4">
-                 <h2>Box Number 3</h2>
-         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+?></p>
          <p><a class="btn" href="#">Click meeee &raquo;</a></p>
          </div><!-- .span4 -->
  
