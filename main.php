@@ -15,17 +15,17 @@
 <div class="container">
   <div class="row-fluid">
     <div class="span10">
-        <div class="container">
+        <div class="container" style="background-color: #FFFFFF; margin: 5px">
             <div class="row-fluid">
               <ul class="thumbnails">
                 <li class="span3">  
                 <div class="caption">
                   <p><b>QTY: </b></p>
                 </div>
-                  <div class="thumbnail" style="padding: 0; width: 70%; border: 0px">
+                  <div class="thumbnail" style="padding: 0; width: 60%; border: 0px">
                       <img alt="50x50" style="width: 100%" src="bootstrap/app/www/img/banana.jpg">
                 </div>
-                <div class="col-sm-2 col-md-4">
+                <div class="col-sm-2 col-md-4" style="color: #000000">
                     <p> Description: A Yellow Banana
                         <br
                         /> Category: Produce (fruit)
