@@ -16,16 +16,16 @@
   <div class="row-fluid">
     <div class="span10">
       <div class="container">
-        <div class="row-fluid">
+        <div class="row">
             <div class="span10">
             </div>
             <div class="span2">
             </div>
         </div>
-        <div class="row-fluid">
+        <div class="row">
             <div class="span12 pagination-centered"><img src="bootstrap/app/www/img/banana.jpg" alt="header" /></div>
         </div>
-        <div class="row-fluid">
+        <div class="row">
             <div class="row">
                 <div class="span1">
                     <p>Description:</p>
