@@ -15,7 +15,7 @@
 <div class="container">
   <div class="row-fluid">
     <div class="span10">
-        <div class="container">
+        <div class="container" style="width: 70%">
             <div class="row-fluid">
               <ul class="thumbnails">
                 <li class="span3">  
@@ -28,8 +28,8 @@
                     </div>
                 </div>
                 <div class="row-fluid">
-                    <div class="span4"><b>Description: </b><small>A Banana</small></div><br>
-                    <div class="span4"><b>Category: </b><small>Produce</small></div><br>
+                    <div class="span4"><b>Description: </b><small>A Banana</small></div>
+                    <div class="span4"><b>Category: </b><small>Produce</small></div>
                     <div class="span4"><b>Exp. Date: </b><small>5 days</small></div>
                 </div>
                 </li>
