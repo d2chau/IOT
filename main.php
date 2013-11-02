@@ -12,7 +12,7 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
- <div class="willscontainer">
+ <div class="willscontainerforMain">
      <div class="row-fluid">
         <div class="leftPane">
         </div>
