@@ -1,0 +1,33 @@
+<h1>Listing fridges</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Quantity</th>
+      <th>User</th>
+      <th>Date bought</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @fridges.each do |fridge| %>
+      <tr>
+        <td><%= fridge.item_id %></td>
+        <td><%= fridge.quantity %></td>
+        <td><%= fridge.user_id %></td>
+        <td><%= fridge.date_bought %></td>
+        <td><%= link_to 'Show', fridge %></td>
+        <td><%= link_to 'Edit', edit_fridge_path(fridge) %></td>
+        <td><%= link_to 'Destroy', fridge, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Fridge', new_fridge_path %>

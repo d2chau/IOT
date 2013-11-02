@@ -1,0 +1,31 @@
+<h1>Listing shopping_lists</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Quantity</th>
+      <th>User</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @shopping_lists.each do |shopping_list| %>
+      <tr>
+        <td><%= shopping_list.item_id %></td>
+        <td><%= shopping_list.quantity %></td>
+        <td><%= shopping_list.user_id %></td>
+        <td><%= link_to 'Show', shopping_list %></td>
+        <td><%= link_to 'Edit', edit_shopping_list_path(shopping_list) %></td>
+        <td><%= link_to 'Destroy', shopping_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Shopping list', new_shopping_list_path %>

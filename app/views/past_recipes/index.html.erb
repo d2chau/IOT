@@ -1,0 +1,31 @@
+<h1>Listing past_recipes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Pearson identity</th>
+      <th>Date made</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @past_recipes.each do |past_recipe| %>
+      <tr>
+        <td><%= past_recipe.user_id %></td>
+        <td><%= past_recipe.pearson_identity %></td>
+        <td><%= past_recipe.date_made %></td>
+        <td><%= link_to 'Show', past_recipe %></td>
+        <td><%= link_to 'Edit', edit_past_recipe_path(past_recipe) %></td>
+        <td><%= link_to 'Destroy', past_recipe, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Past recipe', new_past_recipe_path %>

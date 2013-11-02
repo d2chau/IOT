@@ -1,0 +1,32 @@
+<%= form_for(@shopping_list) do |f| %>
+  <% if @shopping_list.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@shopping_list.errors.count, "error") %> prohibited this shopping_list from being saved:</h2>
+
+      <ul>
+      <% @shopping_list.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :item_id %><br>
+    <%= f.number_field :item_id %>
+  </div>
+  <div class="field">
+    <%= f.label :quantity %><br>
+    <%= f.number_field :quantity %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.select :user_id,
+                 User.all.map { |p| [p.name, p.id] },
+                 {include_blank: 'Choose...'},
+                 selected: @user.try(:user).try(:id) %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
