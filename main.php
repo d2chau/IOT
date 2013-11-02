@@ -12,13 +12,13 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
- <div class="willscontainerforMain">
      <div class="row-fluid">
         <div class="leftPane">
+            <p>Testing left</p>
         </div>
         <div class="rightPane">
+            <p>Testing right</p>
         </div>
      </div>
- </div><!-- .container -->
 </body>
 </html>
