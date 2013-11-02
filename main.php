@@ -22,10 +22,8 @@
                 <div class="caption">
                   <p><b>QTY: </b></p>
                 </div>
-                  <div class="thumbnail" style="padding: 0">
-                    <div style="padding:2px">
+                  <div class="thumbnail" style="padding: 0; width: 70%; border: 0px">
                       <img alt="50x50" style="width: 100%" src="bootstrap/app/www/img/banana.jpg">
-                    </div>
                 </div>
                 <div class="col-sm-2 col-md-4">
                     <p> Description: A Yellow Banana
