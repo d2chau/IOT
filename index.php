@@ -15,7 +15,9 @@ if (!$db) {
    exit;
 }
  
-$result = pg_query($db, "SELECT * FROM test");
+#$result = pg_query($db, "SELECT * FROM test");
+$result = pg_query($db, "TABLE test;");
+
 if (!$result){
 	echo "The Query was unsuccessful";
 }
