@@ -33,7 +33,6 @@
                         <div class="span4"><b>Exp. Date:</b><br/><small>5 days</small></div>
                       </div>
                     </div>
-                  </div>
                 </li>
             </ul>
         </div>
