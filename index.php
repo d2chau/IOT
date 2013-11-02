@@ -38,9 +38,7 @@
          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
          <p><a class="btn" href="#">Click meeee &raquo;</a></p>
          </div><!-- .span4 -->
-   
- </div><!-- .row -->
- </div><!-- .container -->
+ 
      
 <?php
 # This function reads your DATABASE_URL configuration automatically set by Heroku
@@ -69,5 +67,8 @@ while ($row = pg_fetch_assoc($result)) {
 }
 echo "Done";
 ?>
+  
+ </div><!-- .row -->
+ </div><!-- .container -->
 </body>
 </html>
