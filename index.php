@@ -10,8 +10,7 @@
          <title>FridgeM8</title>
          <link rel="stylesheet" href="http://flip.hr/css/bootstrap.min.css">
   </head>
-<body>
-	<body background="bootstrap/app/www/img/ourBackground.jpg">
+<body background="bootstrap/app/www/img/ourBackground.jpg">
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
