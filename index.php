@@ -35,8 +35,9 @@
          <div class="Database">
          	<style>
 				body { float:left;}
-				.Database { background-color: #ccffcc;
-				opacity:0.6;
+				.Database { background-color: #000000;
+							color: #FFFFFF;
+							opacity:0.6;
   				/*filter:alpha(opacity=60);  For IE8 and earlier */
   			}
 			</style>
