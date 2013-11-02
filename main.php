@@ -24,13 +24,13 @@
                 </div>
                   <div class="thumbnail" style="padding: 0">
                     <div style="padding:4px">
-                      <img alt="100x100" style="width: 100%" src="bootstrap/app/www/img/banana.jpg">
+                      <img alt="50x50" style="width: 100%" src="bootstrap/app/www/img/banana.jpg">
                     </div>
                 </div>
                 <div class="row-fluid">
-                    <div class="span4"><b>Description:</b><br/><small>A Yellow Banana</small></div>
-                    <div class="span4"><b>Category</b><br/><small>Produce (Fruit)</small></div>
-                    <div class="span4"><b>Exp. Date:</b><br/><small>5 days</small></div>
+                    <div class="span4"><b>Description: </b><small>A Yellow Banana</small></div><br/>
+                    <div class="span4"><b>Category: </b><small>Produce (Fruit)</small></div><br/>
+                    <div class="span4"><b>Exp. Date: </b><small>5 days</small></div>
                 </div>
                 </li>
             </ul>
