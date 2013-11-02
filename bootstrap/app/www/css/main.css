@@ -29,3 +29,6 @@
 .span2{
 	background-color: #111111;
 }
+.container-fluid{
+	height: 100%;
+}
