@@ -18,21 +18,20 @@
         <div class="container">
             <div class="row-fluid">
               <ul class="thumbnails">
-                <li class="span3">
+                <li class="span3">  
+                <div class="caption">
+                  <h2>QTY</h2>
+                </div>
                   <div class="thumbnail" style="padding: 0">
-                    
-                    <div class="caption">
-                      <h2>QTY</h2>
-                    </div>
                     <div style="padding:4px">
-                      <img alt="100x100" style="width: 100%" src="http://placehold.it/100x100">
+                      <img alt="100x100" style="width: 100%" src="bootstrap/app/www/img/banana.jpg">
                     </div>
-                      <div class="row-fluid" style="color: #000000">
-                        <div class="span4"><b>Description:</b><br/><small>A Yellow Banana</small></div>
-                        <div class="span4"><b>Category</b><br/><small>Produce (Fruit)</small></div>
-                        <div class="span4"><b>Exp. Date:</b><br/><small>5 days</small></div>
-                      </div>
-                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span4"><b>Description:</b><br/><small>A Yellow Banana</small></div>
+                    <div class="span4"><b>Category</b><br/><small>Produce (Fruit)</small></div>
+                    <div class="span4"><b>Exp. Date:</b><br/><small>5 days</small></div>
+                </div>
                 </li>
             </ul>
         </div>
