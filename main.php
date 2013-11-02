@@ -12,11 +12,11 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
-     <div class="row-fluid">
-        <div class="leftPane">
+     <div class="row">
+        <div class="span4">
             <p>Testing left</p>
         </div>
-        <div class="rightPane">
+        <div class="span5">
             <p>Testing right</p>
         </div>
      </div>
