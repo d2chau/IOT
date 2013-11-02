@@ -28,10 +28,10 @@
                     </div>
                 </div>
                 <div class="col-sm-2 col-md-4">
-                    <p> <i class="glyphicon glyphicon-ok"></i> Banana
+                    <p> Description: A Yellow Banana
                         <br
-                        /> <i class="glyphicon glyphicon-list"></i> Produce
-                        <br /> <i class="glyphicon glyphicon-skull"></i> 5 days</p>
+                        /> Category: Produce (fruit)
+                        <br /> Exp. Date: 5 days</p>
                 </div>
                 </li>
             </ul>
