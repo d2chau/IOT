@@ -27,7 +27,7 @@ else{
 #$row = pg_fetch_all($result);
 #print_r($row);
 while ($row = pg_fetch_row($result)) {
-    echo $row['id'];
+    echo $row[0];
 }
 ?>
 </body>
