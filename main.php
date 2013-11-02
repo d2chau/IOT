@@ -39,7 +39,7 @@
 -->
 
 
-
+<td>
    <div id="example" class="modal hide fade in" style="display: none; ">  
 <div class="modal-header">  
 <a class="close" data-dismiss="modal">×</a>  
@@ -113,36 +113,7 @@
 
 </p>  
 </td>
-    <td>
-<p>
 
-    <a data-toggle="modal" href="#example">
-
-  <div class="row-fluid">
-    <div class="span10">
-        <div class="myContainer">
-            <div class="row-fluid">
-              <ul class="thumbnails">
-                <li class="span3">  
-                <div class="caption" style="color: white">
-                  <p><b>QTY: </b></p>
-                </div>
-                  <div class="thumbnail" style="padding: 0; border: 0px">
-                      <img alt="100x100" style="width: 100%" src="bootstrap/app/www/img/small_banana.jpg">
-                </div>
-                <div class="col-sm-2 col-md-4" style="color: #000000; width=100%">
-                    <p> Description: Banana
-                        <br /> Category: Produce
-                        <br /> Exp. Date: 5 days</p>
-                </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</a>
-
-</p>  
-</td>
     <td>
 <p>
 
@@ -238,66 +209,6 @@
 
 </p>  
 </td>
-    <td>
-<p>
-
-    <a data-toggle="modal" href="#example">
-
-  <div class="row-fluid">
-    <div class="span10">
-        <div class="myContainer">
-            <div class="row-fluid">
-              <ul class="thumbnails">
-                <li class="span3">  
-                <div class="caption" style="color: white">
-                  <p><b>QTY: </b></p>
-                </div>
-                  <div class="thumbnail" style="padding: 0; border: 0px">
-                      <img alt="100x100" style="width: 100%" src="bootstrap/app/www/img/small_banana.jpg">
-                </div>
-                <div class="col-sm-2 col-md-4" style="color: #000000; width=100%">
-                    <p> Description: Banana
-                        <br /> Category: Produce
-                        <br /> Exp. Date: 5 days</p>
-                </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</a>
-
-</p>  
-</td>
-    <td>
-<p>
-
-    <a data-toggle="modal" href="#example">
-
-  <div class="row-fluid">
-    <div class="span10">
-        <div class="myContainer">
-            <div class="row-fluid">
-              <ul class="thumbnails">
-                <li class="span3">  
-                <div class="caption" style="color: white">
-                  <p><b>QTY: </b></p>
-                </div>
-                  <div class="thumbnail" style="padding: 0; border: 0px">
-                      <img alt="100x100" style="width: 100%" src="bootstrap/app/www/img/small_banana.jpg">
-                </div>
-                <div class="col-sm-2 col-md-4" style="color: #000000; width=100%">
-                    <p> Description: Banana
-                        <br /> Category: Produce
-                        <br /> Exp. Date: 5 days</p>
-                </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</a>
-
-</p>  
-</td>
 
     <td>
 <p>
@@ -329,36 +240,9 @@
 
 </p>  
 </td>
-       <td>
-<p>
 
-    <a data-toggle="modal" href="#example">
 
-  <div class="row-fluid">
-    <div class="span10">
-        <div class="myContainer">
-            <div class="row-fluid">
-              <ul class="thumbnails">
-                <li class="span3">  
-                <div class="caption" style="color: white">
-                  <p><b>QTY: </b></p>
-                </div>
-                  <div class="thumbnail" style="padding: 0; border: 0px">
-                      <img alt="100x100" style="width: 100%" src="bootstrap/app/www/img/small_banana.jpg">
-                </div>
-                <div class="col-sm-2 col-md-4" style="color: #000000; width=100%">
-                    <p> Description: Banana
-                        <br /> Category: Produce
-                        <br /> Exp. Date: 5 days</p>
-                </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</a>
-
-</p>  
-</td>
+   
 </tr>
 
 
