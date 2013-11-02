@@ -20,22 +20,17 @@
               <ul class="thumbnails">
                 <li class="span3">
                   <div class="thumbnail" style="padding: 0">
-                    <div style="padding:4px">
-                      <img alt="300x200" style="width: 100%" src="http://placehold.it/200x150">
-                    </div>
+                    
                     <div class="caption">
-                      <h2>Project A</h2>
-                      <p>My project description</p>
-                      <p><i class="icon icon-map-marker"></i> Place, Country</p>
+                      <h2>QTY</h2>
                     </div>
-                    <div class="modal-footer" style="text-align: left">
-                      <div class="progress progress-striped active" style="background: #ddd">
-                        <div class="bar" style="width: 60%;"></div>
-                      </div>
-                      <div class="row-fluid">
-                        <div class="span4"><b>60%</b><br/><small>FUNDED</small></div>
-                        <div class="span4"><b>$400</b><br/><small>PLEDGED</small></div>
-                        <div class="span4"><b>18</b><br/><small>DAYS</small></div>
+                    <div style="padding:4px">
+                      <img alt="100x100" style="width: 100%" src="http://placehold.it/100x100">
+                    </div>
+                      <div class="row-fluid" style="color: #000000">
+                        <div class="span4"><b>Description:</b><br/><small>A Yellow Banana</small></div>
+                        <div class="span4"><b>Category</b><br/><small>Produce (Fruit)</small></div>
+                        <div class="span4"><b>Exp. Date:</b><br/><small>5 days</small></div>
                       </div>
                     </div>
                   </div>
