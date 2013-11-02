@@ -22,6 +22,13 @@ if (!$result){
 else{
 	echo $result;
 }
+
+while ($row = mysql_fetch_assoc($result)) {
+    echo $row['firstname'];
+    echo $row['lastname'];
+    echo $row['address'];
+    echo $row['age'];
+}
 ?>
 </body>
 </html>
