@@ -23,7 +23,7 @@ if (!$result){
 
 #$row = pg_fetch_all($result);
 #print_r($row);
-while ($row = pg_fetch_alloc($result)) {
+while ($row = pg_fetch_assoc($result)) {
     echo $row['id'];
 }
 echo "Done";
