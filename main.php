@@ -27,10 +27,11 @@
                       <img alt="50x50" style="width: 100%" src="bootstrap/app/www/img/banana.jpg">
                     </div>
                 </div>
-                <div class="row-fluid">
-                    <div class="span4"><b>Description: </b><small>Banana</small></div>
-                    <div class="span4"><b>Category: </b><small>Produce</small></div>
-                    <div class="span4"><b>Exp. Date: </b><small>5 days</small></div>
+                <div class="col-sm-2 col-md-4">
+                    <p> <i class="glyphicon glyphicon-qrcode"></i> Banana
+                        <br
+                        /> <i class="glyphicon glyphicon-list"></i> Produce
+                        <br /> <i class="glyphicon glyphicon-skull"></i> 5 days</p>
                 </div>
                 </li>
             </ul>
