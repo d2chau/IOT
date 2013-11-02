@@ -30,7 +30,7 @@
 	margin: auto;
 	background-color: #111111;
 	opacity:0.8;
-	margin-right: 75pt;
+	margin-left: 10%;
 }
 .span5{
     width: 100%;
@@ -40,6 +40,8 @@
 	background-color: #111111;
 	color: #FFFFFF;
 	opacity:0.8;
+	margin-right: 15%;
+	margin-left: 25%;
 }
 
 html, body {
