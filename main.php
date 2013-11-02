@@ -327,7 +327,6 @@
     <div class="span2">
       <p>Testing Right</p>
     </div>
-  </div>
 </div>
 </body>
 </html>
