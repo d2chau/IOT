@@ -23,8 +23,8 @@
                   <h2>QTY</h2>
                 </div>
                   <div class="thumbnail" style="padding: 0">
-                    <div style="padding:4px">
-                      <img alt="50x50" style="width: 100%" src="bootstrap/app/www/img/banana.jpg">
+                    <div style="padding:2px">
+                      <img alt="50x50" style="width: 50%" src="bootstrap/app/www/img/banana.jpg">
                     </div>
                 </div>
                 <div class="row-fluid">
