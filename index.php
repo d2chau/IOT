@@ -9,7 +9,7 @@
 <body>
 	<h1>The Best Achievement App In the World!</h1>
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 <?php
 # This function reads your DATABASE_URL configuration automatically set by Heroku
 # the return value is a string that will work with pg_connect
