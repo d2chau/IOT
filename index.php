@@ -34,11 +34,6 @@
          </div><!-- .span4 -->
    
          <div class="innerDiv">
-         	<style>
-				body { 
-            float:left;}
-				
-			</style>
                  <h2>Database Query Test</h2>
          <p>This should be the DB query that we're playing with for now: <?php
 # This function reads your DATABASE_URL configuration automatically set by Heroku
@@ -70,9 +65,6 @@ echo "Done";
          <p><a class="btn" href="#">Click meeee &raquo;</a></p>
          </div><!-- .span4 -->
  
-     
-
-  
  </div><!-- .row -->
  </div><!-- .container -->
 </body>
