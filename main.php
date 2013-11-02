@@ -12,7 +12,7 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
-<div class="container-fluid">
+<div class="container">
   <div class="row-fluid">
     <div class="span10">
       <div class="container">
@@ -30,21 +30,21 @@
                 <div class="span1">
                     <p>Description:</p>
                 </div>
-                <div class="span2">
+                <div class="span3">
                 </div>
             </div>
             <div class="row">
                 <div class="span1">
                     <p>Category:</p>
                 </div>
-                <div class="span2">
+                <div class="span3">
                 </div>
             </div>
             <div class="row">
                 <div class="span1">
                     <p>Exp. Date:</p>
                 </div>
-                <div class="span2">
+                <div class="span3">
                 </div>
             </div>
         </div>
