@@ -1,5 +1,4 @@
 .willscontainer{
-	margin-left: auto;
 	margin-right: auto;
 	margin-left: 10px;
 }
@@ -8,14 +7,17 @@
 	background-color: #000000;
 	color: #FFFFFF;
 	opacity:0.8;
-	margin-left: 10px;
 	margin-right: 10px;
 }
 .btn{
 	color: #000000;
 }
-.innerDiv {
-	padding-left: 10px;
-	margin-bottom: 10px;
-	border-bottom-width: 20px;
+.innerDiv1 {
+	margin: 10px;
+}
+.innerDiv2 {
+	margin: 10px;
+}
+.innerDiv3 {
+	margin: 10px;
 }

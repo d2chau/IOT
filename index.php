@@ -21,19 +21,19 @@
          <p><a class="btn btn-primary btn-large">Get Started! &raquo;</a></p>
          </div><!-- .hero-unit -->
   <div class="row-fluid">
-         <div class="innerDiv">
+         <div class="innerDiv1">
          <h2>Box Number 1</h2>
          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
          <p><a class="btn" href="#">Click meeee &raquo;</a></p>
          </div><!-- .span4 -->
    
-         <div class="innerDiv">
+         <div class="innerDiv2">
                  <h2>Box Number 2</h2>
          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
          <p><a class="btn" href="#">Click meeee &raquo;</a></p>
          </div><!-- .span4 -->
    
-         <div class="innerDiv">
+         <div class="innerDiv3">
                  <h2>Database Query Test</h2>
          <p>This should be the DB query that we're playing with for now: <?php
 # This function reads your DATABASE_URL configuration automatically set by Heroku
