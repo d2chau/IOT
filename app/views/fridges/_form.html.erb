@@ -1,0 +1,39 @@
+<%= form_for(@fridge) do |f| %>
+  <% if @fridge.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@fridge.errors.count, "error") %> prohibited this fridge from being saved:</h2>
+
+      <ul>
+      <% @fridge.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :item_id %><br>
+    <%= f.select :item_id,
+                 Item.all.map { |p| [p.name, p.id] },
+                 {include_blank: 'Choose...'},
+                 selected: @item.try(:item).try(:id) %>
+  </div>
+  <div class="field">
+    <%= f.label :quantity %><br>
+    <%= f.number_field :quantity %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.select :user_id,
+                 User.all.map { |p| [p.name, p.id] },
+                 {include_blank: 'Choose...'},
+                 selected: @user.try(:user).try(:id) %>
+  </div>
+  <div class="field">
+    <%= f.label :date_bought %><br>
+    <%= f.date_select :date_bought %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

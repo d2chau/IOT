@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @past_recipe.user_id %>
+</p>
+
+<p>
+  <strong>Pearson identity:</strong>
+  <%= @past_recipe.pearson_identity %>
+</p>
+
+<p>
+  <strong>Date made:</strong>
+  <%= @past_recipe.date_made %>
+</p>
+
+<%= link_to 'Edit', edit_past_recipe_path(@past_recipe) %> |
+<%= link_to 'Back', past_recipes_path %>

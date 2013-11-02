@@ -1,0 +1,30 @@
+<h1>Find Recipes</h1>
+<p>What's on hand</p>
+<%
+  user = User.find(1)
+  items_on_hand = []
+  user.fridges.each do |f|
+    items_on_hand.push f.item.name.downcase
+  end
+
+  arg = url_encode(items_on_hand.join(", "))
+
+  require 'net/http'
+  require "erb"
+  
+  get_url = "http://api.pearson.com/kitchen-manager/v1/recipes?ingredients-any=#{arg}"
+
+puts get_url
+  url = URI.parse(get_url)
+  req = Net::HTTP::Get.new(url.path)
+  res = Net::HTTP.start(url.host, url.port) {|http|
+    http.request(req)
+  }
+
+  recipes = 
+
+%>
+<%= ActiveSupport::JSON.decode(res.body).inspect %>
+<p>What's going bad</p>
+
+

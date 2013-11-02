@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Item:</strong>
+  <%= Item.find(@shopping_list.item_id).name %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @shopping_list.quantity %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= User.find(@shopping_list.user_id).name %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_shopping_list_path(@shopping_list) %> |
+<%= link_to 'Back', shopping_lists_path %>
