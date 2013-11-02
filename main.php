@@ -14,10 +14,10 @@
 
 <div class="container">
 
-    <!--
+    
   <div class="row-fluid">
     <div class="span10">
-        <div class="myContainer">
+   <!--     <div class="myContainer">
             <div class="row-fluid">
               <ul class="thumbnails">
                 <li class="span3">  
