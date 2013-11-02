@@ -7,7 +7,7 @@
     <title>Fridgem8</title>
          <meta charset="utf-8">
          <title>FridgeM8</title>
-          <link rel="bootstrap/app/www/css/main.css" type="text/css"  rel="stylesheet" media="screen"
+          <link rel="stylesheet" href= "bootstrap/app/www/css/main.css" type="text/css">
          <link rel="stylesheet" href="http://flip.hr/css/bootstrap.min.css">
   </head>
 <body>
