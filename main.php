@@ -15,7 +15,40 @@
 <div class="container-fluid">
   <div class="row-fluid">
     <div class="span10">
-      <p>Testing left</p>
+      <div class="container">
+        <div class="row-fluid">
+            <div class="span10">
+            </div>
+            <div class="span2">
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12 pagination-centered"><img src="bootstrap/app/www/img/banana.jpg" alt="header" /></div>
+        </div>
+        <div class="row-fluid">
+            <div class="row">
+                <div class="span1">
+                    <p>Description:</p>
+                </div>
+                <div class="span2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="span1">
+                    <p>Category:</p>
+                </div>
+                <div class="span2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="span1">
+                    <p>Exp. Date:</p>
+                </div>
+                <div class="span2">
+                </div>
+            </div>
+        </div>
+      </div>
     </div>
     <div class="span2">
       <p>Testing Right</p>
