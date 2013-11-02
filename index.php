@@ -4,10 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="bootstrap/app/www/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/app/www/css/main.css" rel="stylesheet" media="screen">
     <title>Fridgem8</title>
          <meta charset="utf-8">
          <title>FridgeM8</title>
+          <link rel="bootstrap/app/www/css/main.css" type="text/css"  rel="stylesheet" media="screen"
          <link rel="stylesheet" href="http://flip.hr/css/bootstrap.min.css">
   </head>
 <body>
