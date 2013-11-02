@@ -15,7 +15,7 @@ if (!$db) {
    exit;
 }
  
-$result = pg_query($db, "TABLE test");
+$result = pg_query($db, "SELECT * FROM test");
 echo $result;
 ?>
 </body>
