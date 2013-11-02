@@ -47,7 +47,7 @@
 </div>  
 <div class="modal-body">  
     <div class="image_div">
-        <img src="small_banana.jpg">
+        <img src="bootstrap/app/www/img/small_banana.jpg">
     </div>
 
     <div class="right_outer">
