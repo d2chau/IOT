@@ -5,7 +5,12 @@
 	margin-top: 5px;
 }
 
-
+.myContainer{
+	background-color: #FFFFFF; 
+	margin: 5px; 
+	width: 80em;
+	height:120em;
+}
 .innerDiv {
 	width: 100%;
 	border-width: 5px; 
