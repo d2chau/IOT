@@ -21,7 +21,7 @@
          <p>Hello guys i am a ".hero-unit" and you can use me if you wanna say something important.</p>
          <p><a class="btn btn-primary btn-large">Super important &raquo;</a></p>
          </div><!-- .hero-unit -->
-        
+       <center> 
  <div class="row">
          <div class="span4">
          <h2>Box Number 1</h2>
@@ -40,7 +40,7 @@
 				body { float:left;}
 				.row { background-color: #000000;
 							color: #FFFFFF;
-							opacity:0.9;
+							opacity:0.8;
   				/*filter:alpha(opacity=60);  For IE8 and earlier */
   			}
   				.btn{
@@ -82,6 +82,7 @@ echo "Done";
 
   
  </div><!-- .row -->
+</center>
  </div><!-- .container -->
 </body>
 </html>
