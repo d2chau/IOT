@@ -19,7 +19,7 @@
             <div class="row-fluid">
               <ul class="thumbnails">
                 <li class="span3">  
-                <div class="caption">
+                <div class="caption" style="color: white">
                   <p><b>QTY: </b></p>
                 </div>
                   <div class="thumbnail" style="padding: 0; border: 0px">

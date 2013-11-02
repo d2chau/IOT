@@ -13,7 +13,6 @@
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
 
      <div class="willscontainer">
-         
          <div class="hero-unit">
          <h1>Fridgem8</h1>
          <p>Welcome to Fridgem8! A list that shops the way YOU want. Click below to get started. </p>
