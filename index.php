@@ -1,13 +1,13 @@
 <html>
 <head>
-    <title>Boootstrap 101 T</title>
+    <title>Fridgem8</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="bootstrap/app/www/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href= "bootstrap/app/www/css/main.css" rel="stylesheet" media="screen">
     <title>Fridgem8</title>
          <meta charset="utf-8">
          <title>FridgeM8</title>
-          <link rel="stylesheet" href= "bootstrap/app/www/css/main.css">
          <link rel="stylesheet" href="http://flip.hr/css/bootstrap.min.css">
   </head>
 <body>
@@ -18,9 +18,9 @@
      <div class="container">
          
          <div class="hero-unit">
-         <h1>The Best Achievement App In the World!</h1>
-         <p>Hello guys i am a ".hero-unit" and you can use me if you wanna say something important.</p>
-         <p><a class="btn btn-primary btn-large">Super important &raquo;</a></p>
+         <h1>Fridgem8</h1>
+         <p>Welcome to Fridgem8! A list that shops the way YOU want. Click below to get started. </p>
+         <p><a class="btn btn-primary btn-large">Get Started! &raquo;</a></p>
          </div><!-- .hero-unit -->
   <div class="row-fluid">
          <div class="span4">
