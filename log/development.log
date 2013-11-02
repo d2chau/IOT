@@ -1158,3 +1158,149 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-02 10:51:18 -0600
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-02 10:51:18 -0600
+
+
+Started GET "/shopping_lists/new" for 127.0.0.1 at 2013-11-02 11:12:25 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ShoppingListsController#new as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered shopping_lists/_form.html.erb (79.4ms)
+  Rendered shopping_lists/new.html.erb within layouts/application (82.4ms)
+Completed 200 OK in 213ms (Views: 191.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/shopping_lists/new" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+Processing by ShoppingListsController#new as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered shopping_lists/_form.html.erb (5.7ms)
+  Rendered shopping_lists/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/fridges.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/past_recipes.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/shopping_lists.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:26 -0600
+
+
+Started GET "/shopping_lists/new" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+Processing by ShoppingListsController#new as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered shopping_lists/_form.html.erb (5.3ms)
+  Rendered shopping_lists/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/fridges.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/past_recipes.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/shopping_lists.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:27 -0600
+
+
+Started GET "/shopping_lists/new" for 127.0.0.1 at 2013-11-02 11:12:55 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ShoppingListsController#new as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered shopping_lists/_form.html.erb (70.9ms)
+  Rendered shopping_lists/new.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 156ms (Views: 133.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/fridges.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/past_recipes.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/shopping_lists.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-02 11:12:56 -0600

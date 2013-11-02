@@ -13,7 +13,10 @@
 
   <div class="field">
     <%= f.label :item_id %><br>
-    <%= f.number_field :item_id %>
+    <%= f.select :item_id,
+                 Item.all.map { |p| [p.name, p.id] },
+                 {include_blank: 'Choose...'},
+                 selected: @item.try(:item).try(:id) %>
   </div>
   <div class="field">
     <%= f.label :quantity %><br>
