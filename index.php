@@ -16,7 +16,12 @@ if (!$db) {
 }
  
 $result = pg_query($db, "SELECT * FROM test");
-echo $result;
+if (!$result){
+	echo "The Query was unsuccessful";
+}
+else{
+	echo $result;
+}
 ?>
 </body>
 </html>
