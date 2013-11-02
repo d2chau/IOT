@@ -23,11 +23,11 @@ else{
 	echo $result;
 }
 
-$row = pg_fetch_all($result);
-print_r($row);
-#while ($row = pg_fetch_all($result)) {
-#    echo $row['id'];
-#}
+#$row = pg_fetch_all($result);
+#print_r($row);
+while ($row = pg_fetch_assoc($result)) {
+    echo $row['id'];
+}
 ?>
 </body>
 </html>
