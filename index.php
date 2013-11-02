@@ -37,9 +37,12 @@
 				body { float:left;}
 				.Database { background-color: #000000;
 							color: #FFFFFF;
-							opacity:0.6;
+							opacity:0.4;
   				/*filter:alpha(opacity=60);  For IE8 and earlier */
   			}
+  				.btn{
+  					color: #000000;
+  				}
 			</style>
                  <h2>Database Query Test</h2>
          <p>This should be the DB query that we're playing with for now: <?php
