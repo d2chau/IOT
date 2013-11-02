@@ -15,10 +15,10 @@
 <div class="container-fluid">
   <div class="row-fluid">
     <div class="span10">
-      <p>Testing Right</p>
+      <p>Testing left</p>
     </div>
     <div class="span2">
-      <p>TestingLeft</p>
+      <p>Testing Right</p>
     </div>
   </div>
 </div>
