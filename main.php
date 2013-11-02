@@ -26,9 +26,8 @@
                       <img alt="50x50" style="width: 100%" src="bootstrap/app/www/img/banana.jpg">
                 </div>
                 <div class="col-sm-2 col-md-4" style="color: #000000">
-                    <p> Description: A Yellow Banana
-                        <br
-                        /> Category: Produce (fruit)
+                    <p> Description: Banana
+                        <br /> Category: Produce
                         <br /> Exp. Date: 5 days</p>
                 </div>
                 </li>
