@@ -15,7 +15,7 @@ if (!$db) {
    exit;
 }
  
-$result = pg_query($db, "SELECT * FROM test");
+$result = pg_query($db, "SELECT * FROM test;");
 if (!$result){
 	echo "The Query was unsuccessful";
 }
@@ -23,7 +23,7 @@ else{
 	echo $result;
 }
 
-while ($row = mysql_fetch_assoc($result)) {
+while ($row = pg_fetch_all($result)) {
     echo $row['id'];
 }
 ?>
