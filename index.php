@@ -7,7 +7,7 @@
     <link href="bootstrap/app/www/css/bootstrap.min.css" rel="stylesheet" media="screen">
   </head>
 <body>
-	<body background="ourBackground.jpg">
+	<body background="bootstrap/app/www/img/ourBackground.jpg">
 	<h1>The Best Achievement App In the World!</h1>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src='bootstrap/app/www/js/bootstrap.min.js'></script>
