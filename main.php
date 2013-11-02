@@ -32,35 +32,8 @@
          </div><!-- .span4 -->
          <div class="innerDiv">
                  <h2>Database Query Test</h2>
-         <p>This should be the DB query that we're playing with for now: <?php
-# This function reads your DATABASE_URL configuration automatically set by Heroku
-# the return value is a string that will work with pg_connect
-function pg_connection_string() {
-  return "dbname=dfncb0i2lm0m7q host=ec2-54-235-152-22.compute-1.amazonaws.com port=5432 user=dzpmeljnudwqtm password=tg6BVdzlv9zwagqsEim-GL9J15 sslmode=require";
-}
- 
-# Establish db connection
-$db = pg_connect(pg_connection_string());
-if (!$db) {
-   echo "Database connection error.";
-   exit;
-}
- 
-$result = pg_query($db, "SELECT * FROM test");
-
-if (!$result){
-	echo "The Query was unsuccessful";
-}
-
-#$row = pg_fetch_all($result);
-#print_r($row);
-while ($row = pg_fetch_assoc($result)) {
-    echo $row['id'];
-}
-echo "Done";
-?></p>
-         <p><a class="btn" href="main.php">Click meeee &raquo;</a></p>
-
+         <p>This should be the DB query that we're playing with for now: </p>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
          </div><!-- .span4 -->
  
  </div><!-- .row -->
